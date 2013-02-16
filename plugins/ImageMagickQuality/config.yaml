@@ -1,0 +1,14 @@
+id: ImageMagickQuality
+name: ImageMagickQuality
+version: 1.0.0
+author_link: https://github.com/anonymk
+author_name: anonymk
+description: |
+    <__trans phrase="Change Image::Magick JPEG quality."><br />
+    <__trans phrase="Add &quot;ImageMagickQuality&quot; to mt-config.cgi."><br />
+    <__trans phrase="The value is between 1 and 100."><br />
+    <__trans phrase="ex) ImageMagickQuality 75">
+l10n_class: ImageMagickQuality::L10N
+
+callbacks:
+    init_app: $ImageMagickQuality::ImageMagickQuality::Plugin::init_app
